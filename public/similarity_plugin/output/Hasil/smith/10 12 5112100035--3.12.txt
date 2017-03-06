@@ -1,0 +1,22 @@
+3 7  class Account
+6 8  public
+7 12  Account Account(intuang_masuk)
+7 15  Parameter : int uang_masuk
+8 22  if(uang_masuk<0)
+8 23  JV uang_masuk
+8 24  J0
+10 27  =V 
+10 28  =0
+15 39  void kredit(intdata)
+15 42  Parameter : int data
+16 49  =data 
+16 50  =cek 
+19 59  Parameter : int y
+20 67  JV cek
+20 68  JV y
+28 81  int getBalance()
+32 91  private
+33 93  int cek
+37 100  int main()
+39 106  Greturn0
+

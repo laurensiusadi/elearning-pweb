@@ -1,0 +1,26 @@
+6  7  class BankAccount
+8  8  public
+9  15  Parameter : int val
+16  36  JV val
+16  37  J0
+18  40  =V 
+22  45  =0
+14  25  void setBalanceValue(intval)
+14  28  Parameter : int val
+31  66  Parameter : int val
+38  88  if(val>balanceValue)
+38  89  JV val
+38  90  JV balanceValue
+44  93  -=V 
+44  94  -=val 
+36  81  Parameter : int val
+33  71  +=V 
+33  72  +=val 
+26  52  int getBalanceValue()
+48  100  private
+49  102  int balanceValue
+52  109  int main()
+
+22 107 119 85
+22 0
+89.91596638655462 89.91596638655462

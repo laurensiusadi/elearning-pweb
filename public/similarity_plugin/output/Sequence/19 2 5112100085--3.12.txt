@@ -1,0 +1,92 @@
+$
+$
+$
+$
+$
+$
+$
+class customor
+private
+$
+int JumlahSaldo
+$
+public
+$
+$
+$
+int customor()
+$
+$
+$
+$
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+void setCredit(inttabung)
+$
+$
+Parameter : int tabung
+$
+$
+$
+$
++=V 
++=tabung 
+$
+$
+$
+$
+$
+void setDebit(intambil)
+$
+$
+Parameter : int ambil
+$
+$
+$
+$
+$
+$
+if(ambil>JumlahSaldo)
+JV ambil
+JV JumlahSaldo
+$
+$
+-=V 
+-=ambil 
+$
+$
+$
+$
+$
+$
+int getSaldo()
+$
+$
+$
+$
+$
+GreturnJumlahSaldo
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$

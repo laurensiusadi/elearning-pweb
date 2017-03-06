@@ -1,0 +1,14 @@
+8 7 class Account
+10 8 public
+13 22 if(initialBalance<0)
+13 23 JV initialBalance
+13 24 J0
+15 27 =V 
+27 63 JV debitAmount
+27 64 JV balance
+38 96 Greturnbalance
+41 100 private
+45 109 int main()
+47 115 Greturn0
+
+24

@@ -1,0 +1,27 @@
+6  7  class accountBalance
+8  8  public
+9  15  Parameter : int aBalance
+11  22  if(aBalance<0)
+11  23  JV aBalance
+11  24  J0
+11  27  =V 
+11  28  =0
+12  32  =V 
+12  33  =aBalance 
+44  109  if(aDebit>balance)
+23  59  JV aBalance
+44  110  JV aDebit
+48  114  -=V 
+48  115  -=aDebit 
+38  93  +=V 
+38  94  +=aCredit 
+30  75  int getAccountBalance()
+32  81  Greturnbalance
+51  121  private
+52  123  int balance
+55  133  int main()
+58  139  Greturn0
+
+23 110 143 100
+23 0
+76.92307692307692 92.43697478991596

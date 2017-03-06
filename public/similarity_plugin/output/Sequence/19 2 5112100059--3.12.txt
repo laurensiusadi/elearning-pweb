@@ -1,0 +1,109 @@
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intsaldo)
+$
+$
+Parameter : int saldo
+$
+$
+$
+$
+$
+$
+if(saldo>=0)
+JV saldo
+J0
+$
+$
+=V 
+=saldo 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+void credit(intduit)
+$
+$
+Parameter : int duit
+$
+$
+$
+$
+=V 
+balance=balance+duit
+=balance 
+=duit 
+$
+$
+$
+$
+$
+void debit(intduit)
+$
+$
+Parameter : int duit
+$
+$
+$
+$
+$
+$
+if(duit<=balance)
+JV duit
+JV balance
+$
+$
+=V 
+balance=balance-duit
+=balance 
+=duit 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$

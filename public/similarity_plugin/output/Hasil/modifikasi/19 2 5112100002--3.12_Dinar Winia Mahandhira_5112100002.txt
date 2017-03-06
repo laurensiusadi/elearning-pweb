@@ -1,0 +1,27 @@
+6  7  class Account
+8  8  public
+10  12  Account Account(intbal)
+10  15  Parameter : int bal
+12  23  JV bal
+12  24  J0
+13  27  =V 
+16  32  =0
+21  39  void credit(intbal)
+21  42  Parameter : int bal
+26  57  Parameter : int bal
+28  65  JV bal
+28  66  JV balance
+29  69  -=V 
+29  70  -=bal 
+23  47  +=V 
+23  48  +=bal 
+34  77  int getBalance()
+36  83  Greturnbalance
+39  87  private
+40  89  int balance
+43  96  int main()
+44  102  Greturn0
+
+23 99 119 97
+23 0
+83.19327731092437 83.19327731092437

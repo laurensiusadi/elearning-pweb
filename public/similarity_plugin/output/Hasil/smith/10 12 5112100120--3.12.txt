@@ -1,0 +1,18 @@
+6 7  class AccountBank
+8 8  public
+9 15  Parameter : int input
+11 23  JV input
+11 24  J0
+18 29  =V 
+18 30  =0
+22 37  void setAccountBalance(intinput)
+22 40  Parameter : int input
+24 45  =V 
+24 46  =input 
+30 66  Parameter : int input
+32 74  JV input
+42 93  Parameter : int input
+51 112  private
+52 114  int balance
+56 121  int main()
+

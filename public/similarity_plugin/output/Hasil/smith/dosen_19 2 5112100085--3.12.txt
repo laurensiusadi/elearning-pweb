@@ -1,0 +1,13 @@
+8 7  class Account
+10 8  public
+20 37  void setBalance(intinitialBalance)
+20 40  Parameter : int initialBalance
+25 55  Parameter : int debitAmount
+27 62  if(debitAmount>balance)
+27 63  JV debitAmount
+27 64  JV balance
+28 67  -=V 
+28 68  -=debitAmount 
+36 90  int getBalance()
+45 109  int main()
+

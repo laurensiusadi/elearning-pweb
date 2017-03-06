@@ -1,0 +1,24 @@
+5  7  class AccountBank
+7  8  public
+10  16  Parameter : int init
+13  27  if(init<0)
+13  28  JV init
+13  29  J0
+15  32  =V 
+15  33  =0
+20  40  void credit(intcr)
+20  43  Parameter : int cr
+12  21  =V 
+12  22  =init 
+10  13  int AccountBank(intinit)
+25  60  Parameter : int db
+28  67  if(db>initBalance)
+28  68  JV db
+28  69  JV initBalance
+36  82  int getBalance()
+8  10  int initBalance
+44  98  int main()
+
+20 96 119 92
+20 0
+80.67226890756302 80.67226890756302

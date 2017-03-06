@@ -1,0 +1,18 @@
+5 7  class Account
+8 9  public
+9 16  Parameter : int uangawal
+11 23  if(uangawal<0)
+11 24  JV uangawal
+11 25  J0
+12 29  =V 
+12 30  =uangawal 
+15 39  Parameter : int uangdebit
+17 46  if(uangdebit>cek)
+17 47  JV uangdebit
+17 48  JV cek
+22 64  Parameter : int uangkredit
+35 95  private
+36 97  int balance
+39 104  int main()
+41 110  Greturn0
+

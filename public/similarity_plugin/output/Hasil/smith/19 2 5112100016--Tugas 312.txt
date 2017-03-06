@@ -1,0 +1,19 @@
+3 7  class Account
+6 9  public
+8 16  Parameter : int m
+9 23  if(m<0)
+9 24  JV m
+9 25  J0
+10 28  =V 
+10 29  =0
+18 40  void credit(intm)
+18 43  Parameter : int m
+19 50  =balance 
+19 51  =m 
+23 60  Parameter : int m
+24 68  JV balance
+24 69  JV m
+31 83  int getBalance()
+32 89  Greturnbalance
+35 99  int main()
+

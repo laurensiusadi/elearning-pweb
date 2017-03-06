@@ -1,0 +1,13 @@
+6 7  class customor
+11 12  public
+15 30  void setCredit(inttabung)
+15 33  Parameter : int tabung
+18 48  Parameter : int ambil
+19 55  if(ambil>JumlahSaldo)
+19 56  JV ambil
+19 57  JV JumlahSaldo
+20 60  -=V 
+20 61  -=ambil 
+22 68  int getSaldo()
+27 83  int main()
+

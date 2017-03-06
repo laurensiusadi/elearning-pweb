@@ -1,0 +1,28 @@
+13  7  class Account
+16  12  public
+17  19  Parameter : int amount
+18  27  JV amount
+18  28  J0
+19  31  =V 
+21  36  =0
+25  44  void credit(intamount)
+25  47  Parameter : int amount
+17  16  int Account(intamount)
+28  62  Parameter : int amount
+29  69  if(amount>balance)
+29  70  JV amount
+29  71  JV balance
+32  75  -=V 
+32  76  -=amount 
+26  52  +=V 
+26  53  +=amount 
+34  83  int getBalance()
+35  89  Greturnbalance
+14  8  private
+15  10  int balance
+39  98  int main()
+42  104  Greturn0
+
+24 100 119 92
+24 0
+84.03361344537815 84.03361344537815

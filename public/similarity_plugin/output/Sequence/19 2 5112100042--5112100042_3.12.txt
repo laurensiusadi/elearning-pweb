@@ -1,0 +1,114 @@
+$
+$
+$
+$
+$
+$
+$
+class Account
+int cek
+public
+$
+$
+$
+int Account(intuangawal)
+$
+$
+Parameter : int uangawal
+$
+$
+$
+$
+$
+$
+if(uangawal<0)
+JV uangawal
+J0
+$
+$
+$
+=V 
+=uangawal 
+$
+$
+$
+$
+$
+void debit(intuangdebit)
+$
+$
+Parameter : int uangdebit
+$
+$
+$
+$
+$
+$
+if(uangdebit>cek)
+JV uangdebit
+JV cek
+$
+$
+=V 
+cek=cek-uangdebit
+=cek 
+=uangdebit 
+$
+$
+$
+$
+$
+$
+void kredit(intuangkredit)
+$
+$
+Parameter : int uangkredit
+$
+$
+$
+$
+=V 
+cek=cek+uangkredit
+=cek 
+=uangkredit 
+$
+$
+$
+$
+$
+void cetaksaldo()
+$
+$
+$
+$
+$
+$
+$
+$
+if(cek<0)
+JV cek
+J0
+$
+$
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

@@ -1,0 +1,25 @@
+7  7  class Account
+9  8  public
+10  12  Account Account(intinput)
+10  15  Parameter : int input
+17  36  JV input
+17  37  J0
+19  40  =V 
+23  45  =0
+24  47  displayError()
+15  25  void setAccountBalance(intinput)
+15  28  Parameter : int input
+33  66  Parameter : int a
+35  74  JV a
+43  99  JV b
+41  91  Parameter : int b
+53  114  int getBalance()
+55  120  Greturnbalance
+63  134  private
+64  136  int balance
+67  143  int main()
+69  149  Greturn0
+
+21 105 153 102
+21 0
+68.62745098039215 88.23529411764706

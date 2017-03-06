@@ -1,0 +1,13 @@
+11 7  class Bank
+13 8  public
+14 15  Parameter : int money
+16 23  JV money
+16 24  J0
+20 31  =V 
+20 32  =0
+27 53  Parameter : int money
+31 70  Parameter : int money
+36 91  private
+37 93  int balance
+40 100  int main()
+

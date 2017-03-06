@@ -1,0 +1,222 @@
+$
+$
+$
+$
+$
+$
+$
+class BankAccount
+public
+$
+$
+$
+BankAccount BankAccount(stringacc)
+$
+$
+Parameter : string acc
+$
+$
+$
+setAcc(acc)
+Pacc
+$
+$
+$
+$
+void setAcc(stringacc)
+$
+$
+Parameter : string acc
+$
+$
+$
+$
+=V 
+=acc 
+$
+$
+$
+$
+$
+string getAcc()
+$
+$
+$
+$
+$
+GreturncustomerAccount
+$
+$
+$
+$
+string BankAccount(intcash)
+$
+$
+Parameter : int cash
+$
+$
+$
+$
+$
+$
+if(cash<0)
+JV cash
+J0
+$
+$
+=V 
+=0
+$
+$
+setBalance(cash)
+Pcash
+$
+$
+$
+$
+void setBalance(intcash)
+$
+$
+Parameter : int cash
+$
+$
+$
+$
+=V 
+=cash 
+$
+$
+$
+$
+$
+int BankAccount(intct,intdt)
+$
+$
+Parameter : int ct
+Parameter : int dt
+$
+$
+$
+setTrans(ct,dt)
+Pct
+Pdt
+$
+$
+$
+$
+void setTrans(intct,intdt)
+$
+$
+Parameter : int ct
+Parameter : int dt
+$
+$
+$
+$
+=V 
+=ct 
+$
+$
+=V 
+=dt 
+$
+$
+$
+$
+$
+int getCredit()
+$
+$
+$
+$
+$
+Greturncredit
+$
+$
+$
+$
+int getDebit()
+$
+$
+$
+$
+$
+Greturndebit
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+$
+$
+$
+if(accountBalance<0)
+JV accountBalance
+J0
+$
+$
+GreturnaccountBalance
+$
+$
+$
+$
+int kridit(intbal,intct)
+$
+$
+Parameter : int bal
+Parameter : int ct
+$
+$
+$
+Greturnbal+ct
+$
+$
+$
+$
+int deb(intbal,intdt)
+$
+$
+Parameter : int bal
+Parameter : int dt
+$
+$
+$
+$
+$
+$
+if(bal>dt)
+JV bal
+JV dt
+$
+Greturnbal-dt
+$
+$
+$
+$
+private
+$
+string customerAccount
+int accountBalance
+int credit
+int debit
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

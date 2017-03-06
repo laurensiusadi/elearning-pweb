@@ -1,0 +1,23 @@
+11  7  class Bank
+13  8  public
+14  15  Parameter : int money
+16  23  JV money
+16  24  J0
+16  27  =V 
+20  32  =0
+14  12  void setBalance(intmoney)
+27  53  Parameter : int money
+29  58  =V 
+29  60  =balance 
+31  70  Parameter : int money
+33  78  JV balance
+33  79  JV money
+23  39  int getBalance()
+25  45  Greturnbalance
+36  91  private
+37  93  int balance
+40  100  int main()
+
+19 95 119 80
+19 0
+79.83193277310924 79.83193277310924

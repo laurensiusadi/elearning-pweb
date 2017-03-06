@@ -1,0 +1,21 @@
+4 7  class BankAcc
+6 9  public
+7 16  Parameter : int init
+8 23  if(init<0)
+8 24  JV init
+8 25  J0
+9 28  =V 
+9 29  =0
+15 40  void credit(intadd)
+15 43  Parameter : int add
+18 58  Parameter : int minus
+19 65  if(minus>balance)
+19 66  JV minus
+19 67  JV balance
+22 70  -=V 
+22 71  -=minus 
+24 78  int getBalance()
+25 84  Greturnbalance
+29 94  int main()
+31 100  Greturn0
+

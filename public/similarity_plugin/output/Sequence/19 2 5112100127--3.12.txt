@@ -1,0 +1,143 @@
+$
+$
+$
+$
+$
+$
+$
+class accountBalance
+public
+$
+$
+$
+accountBalance accountBalance(intaBalance)
+$
+$
+Parameter : int aBalance
+$
+$
+$
+$
+$
+$
+if(aBalance<0)
+JV aBalance
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+=V 
+=aBalance 
+$
+$
+$
+$
+$
+void displayMessage()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+void setAccountBalance()
+$
+$
+$
+$
+$
+$
+$
+$
+if(aBalance<=0)
+JV aBalance
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+=V 
+=aBalance 
+$
+$
+$
+$
+$
+int getAccountBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+$
+void setAccountCredit()
+$
+$
+$
+$
+$
+$
++=V 
++=aCredit 
+$
+$
+$
+$
+$
+void setAccountDebit()
+$
+$
+$
+$
+$
+$
+$
+$
+if(aDebit>balance)
+JV aDebit
+JV balance
+$
+$
+-=V 
+-=aDebit 
+$
+$
+$
+$
+$
+private
+$
+int balance
+int aBalance
+int aCredit
+int aDebit
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

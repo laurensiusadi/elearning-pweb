@@ -1,0 +1,21 @@
+14  7  class Account
+15  8  public
+17  23  JV initial
+17  24  J0
+17  27  =V 
+21  30  getchar()
+17  22  if(initial>0)
+43  85  JV money
+43  86  JV balance
+43  89  -=V 
+43  90  -=money 
+33  61  +=V 
+33  62  +=money 
+52  103  private
+77  154  int pil
+61  134  int main()
+63  140  Greturn0
+
+17 96 268 15
+17 0
+35.82089552238806 80.67226890756302

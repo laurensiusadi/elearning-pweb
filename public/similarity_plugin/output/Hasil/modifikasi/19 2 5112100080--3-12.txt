@@ -1,0 +1,36 @@
+8  7  class Account
+10  8  public
+11  12  Account Account(intinitialBalance)
+11  15  Parameter : int initialBalance
+13  22  if(initialBalance<0)
+13  23  JV initialBalance
+13  24  J0
+15  27  =V 
+15  28  =0
+17  30  setBalance(initialBalance)
+17  31  PinitialBalance
+20  37  void setBalance(intinitialBalance)
+20  40  Parameter : int initialBalance
+22  45  =V 
+22  46  =initialBalance 
+25  52  int debit(intdebitAmount)
+25  55  Parameter : int debitAmount
+27  62  if(debitAmount>balance)
+27  63  JV debitAmount
+27  64  JV balance
+27  67  -=V 
+27  68  -=debitAmount 
+30  75  int credit(intcreditAmount)
+30  78  Parameter : int creditAmount
+32  83  +=V 
+32  84  +=creditAmount 
+35  90  int getBalance()
+37  96  Greturnbalance
+40  100  private
+41  102  int balance
+44  109  int main()
+47  115  Greturn0
+
+32 119 119 119
+32 0
+100.0 100.0

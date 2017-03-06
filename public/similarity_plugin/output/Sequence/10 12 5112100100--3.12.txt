@@ -1,0 +1,106 @@
+$
+$
+$
+$
+$
+$
+$
+class Account
+private
+$
+int accountBalance
+$
+public
+$
+$
+$
+int Account(intaB)
+$
+$
+Parameter : int aB
+$
+$
+$
+$
+$
+$
+if(aB>=0)
+JV aB
+J0
+$
+$
+=V 
+=aB 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+void credit(intnominal)
+$
+$
+Parameter : int nominal
+$
+$
+$
+$
++=V 
++=nominal 
+$
+$
+$
+$
+$
+void debit(intnilai)
+$
+$
+Parameter : int nilai
+$
+$
+$
+$
+$
+$
+if(nilai<=accountBalance)
+JV nilai
+JV accountBalance
+$
+$
+-=V 
+-=nilai 
+$
+$
+$
+$
+$
+$
+int returnBalance()
+$
+$
+$
+$
+$
+GreturnaccountBalance
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

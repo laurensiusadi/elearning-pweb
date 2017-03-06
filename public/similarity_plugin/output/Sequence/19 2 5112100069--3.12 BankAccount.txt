@@ -1,0 +1,118 @@
+$
+$
+$
+$
+$
+$
+$
+class BankAccount
+public
+$
+$
+$
+BankAccount BankAccount(intvalue)
+$
+$
+Parameter : int value
+$
+$
+$
+setBalanceValue(value)
+Pvalue
+$
+$
+$
+$
+void setBalanceValue(intvalue)
+$
+$
+Parameter : int value
+$
+$
+$
+$
+$
+$
+if(value>=0)
+JV value
+J0
+$
+$
+=V 
+=value 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+int getBalanceValue()
+$
+$
+$
+$
+$
+GreturnbalanceValue
+$
+$
+$
+$
+void credit(intvalue)
+$
+$
+Parameter : int value
+$
+$
+$
+$
++=V 
++=value 
+$
+$
+$
+$
+$
+void debit(intvalue)
+$
+$
+Parameter : int value
+$
+$
+$
+$
+$
+$
+if(value>balanceValue)
+JV value
+JV balanceValue
+$
+$
+-=V 
+-=value 
+$
+$
+$
+$
+$
+private
+$
+int balanceValue
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$

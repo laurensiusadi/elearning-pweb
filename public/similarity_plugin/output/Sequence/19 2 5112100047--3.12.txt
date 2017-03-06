@@ -1,0 +1,107 @@
+$
+$
+$
+$
+$
+$
+$
+class AccountBank
+public
+$
+int initBalance
+$
+$
+int AccountBank(intinit)
+$
+$
+Parameter : int init
+$
+$
+$
+$
+=V 
+=init 
+$
+$
+$
+$
+if(init<0)
+JV init
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+void credit(intcr)
+$
+$
+Parameter : int cr
+$
+$
+$
+$
+=V 
+initBalance=initBalance+cr
+=initBalance 
+=cr 
+$
+$
+$
+$
+$
+void debet(intdb)
+$
+$
+Parameter : int db
+$
+$
+$
+$
+$
+$
+if(db>initBalance)
+JV db
+JV initBalance
+$
+$
+=V 
+initBalance=initBalance-db
+=initBalance 
+=db 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+GreturninitBalance
+$
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$

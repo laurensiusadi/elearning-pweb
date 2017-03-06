@@ -1,0 +1,2165 @@
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intinitialBalance)
+$
+$
+Parameter : int initialBalance
+$
+$
+$
+$
+$
+$
+if(initialBalance<0)
+JV initialBalance
+J0
+$
+$
+=V 
+=0
+$
+setBalance(initialBalance)
+PinitialBalance
+$
+$
+$
+$
+$
+void setBalance(intinitialBalance)
+$
+$
+Parameter : int initialBalance
+$
+$
+$
+$
+=V 
+=initialBalance 
+$
+$
+$
+$
+$
+int debit(intdebitAmount)
+$
+$
+Parameter : int debitAmount
+$
+$
+$
+$
+$
+$
+if(debitAmount>balance)
+JV debitAmount
+JV balance
+$
+$
+-=V 
+-=debitAmount 
+$
+$
+$
+$
+$
+$
+int credit(intcreditAmount)
+$
+$
+Parameter : int creditAmount
+$
+$
+$
+$
++=V 
++=creditAmount 
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intblc)
+$
+$
+Parameter : int blc
+$
+$
+$
+$
+$
+$
+if(blc>=0)
+JV blc
+J0
+$
+setBalance(blc)
+Pblc
+setBalance(0)
+P0
+$
+$
+$
+$
+$
+void credit(intblc)
+$
+$
+Parameter : int blc
+$
+$
+$
+$
++=V 
++=blc 
+$
+$
+$
+$
+$
+void debit(intblc)
+$
+$
+Parameter : int blc
+$
+$
+$
+$
+$
+$
+if(blc>balance)
+JV blc
+JV balance
+$
+$
+-=V 
+-=blc 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+$
+int setBalance(intblc)
+$
+$
+Parameter : int blc
+$
+$
+$
+$
+=V 
+=blc 
+$
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
+$
+$
+if(money>=0)
+JV money
+J0
+$
+$
+=V 
+=money 
+$
+$
+$
+$
+$
+if(money<0)
+JV money
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+int debit(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
+=V 
+balance=balance-money
+=balance 
+=money 
+$
+$
+$
+$
+$
+int credit(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
+=V 
+balance=balance+money
+=balance 
+=money 
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+int balance
+public
+$
+$
+$
+int Account(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
+$
+$
+if(money<0)
+JV money
+J0
+$
+$
+=V 
+=0
+$
+$
+=V 
+=money 
+$
+$
+$
+$
+$
+$
+void creditBalance(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
++=V 
++=money 
+$
+$
+$
+$
+$
+void debitBalance(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
+$
+$
+if(money>balance)
+JV money
+JV balance
+$
+$
+-=V 
+-=money 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class accountBalance
+public
+$
+$
+$
+accountBalance accountBalance(intaBalance)
+$
+$
+Parameter : int aBalance
+$
+$
+$
+$
+$
+$
+if(aBalance<0)
+JV aBalance
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+=V 
+=aBalance 
+$
+$
+$
+$
+$
+void displayMessage()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+void setAccountBalance()
+$
+$
+$
+$
+$
+$
+$
+$
+if(aBalance<=0)
+JV aBalance
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+=V 
+=aBalance 
+$
+$
+$
+$
+$
+int getAccountBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+$
+void setAccountCredit()
+$
+$
+$
+$
+$
+$
++=V 
++=aCredit 
+$
+$
+$
+$
+$
+void setAccountDebit()
+$
+$
+$
+$
+$
+$
+$
+$
+if(aDebit>balance)
+JV aDebit
+JV balance
+$
+$
+-=V 
+-=aDebit 
+$
+$
+$
+$
+$
+private
+$
+int balance
+int aBalance
+int aCredit
+int aDebit
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+private
+$
+int balance
+$
+public
+$
+$
+$
+int Account(intamount)
+$
+$
+Parameter : int amount
+$
+$
+$
+$
+$
+$
+if(amount>=0)
+JV amount
+J0
+$
+$
+=V 
+=amount 
+$
+$
+=V 
+=0
+$
+PString"Error: invalid initial balance\n"
+$
+$
+$
+$
+$
+void credit(intamount)
+$
+$
+Parameter : int amount
+$
+$
+$
+$
++=V 
++=amount 
+$
+$
+$
+$
+$
+void debit(intamount)
+$
+$
+Parameter : int amount
+$
+$
+$
+$
+$
+$
+if(amount>balance)
+JV amount
+JV balance
+$
+PString"Debit amount exceeded account balance\n"
+$
+-=V 
+-=amount 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intbal)
+$
+$
+Parameter : int bal
+$
+$
+$
+$
+$
+$
+if(bal>=0)
+JV bal
+J0
+$
+$
+=V 
+=bal 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+void credit(intbal)
+$
+$
+Parameter : int bal
+$
+$
+$
+$
++=V 
++=bal 
+$
+$
+$
+$
+$
+void debit(intbal)
+$
+$
+Parameter : int bal
+$
+$
+$
+$
+$
+$
+if(bal<=balance)
+JV bal
+JV balance
+$
+$
+-=V 
+-=bal 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intuang_masuk)
+$
+$
+Parameter : int uang_masuk
+$
+$
+$
+$
+$
+$
+if(uang_masuk<0)
+JV uang_masuk
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+=V 
+=uang_masuk 
+$
+$
+$
+$
+$
+void kredit(intdata)
+$
+$
+Parameter : int data
+$
+$
+$
+$
+=V 
+cek=data+cek
+=data 
+=cek 
+$
+$
+$
+$
+$
+void Debit(inty)
+$
+$
+Parameter : int y
+$
+$
+$
+$
+$
+$
+if(cek<y)
+JV cek
+JV y
+$
+$
+=V 
+cek=cek-y
+=cek 
+=y 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturncek
+$
+$
+$
+private
+$
+int cek
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class BankAccount
+public
+$
+$
+$
+BankAccount BankAccount(stringacc)
+$
+$
+Parameter : string acc
+$
+$
+$
+setAcc(acc)
+Pacc
+$
+$
+$
+$
+void setAcc(stringacc)
+$
+$
+Parameter : string acc
+$
+$
+$
+$
+=V 
+=acc 
+$
+$
+$
+$
+$
+string getAcc()
+$
+$
+$
+$
+$
+GreturncustomerAccount
+$
+$
+$
+$
+string BankAccount(intcash)
+$
+$
+Parameter : int cash
+$
+$
+$
+$
+$
+$
+if(cash<0)
+JV cash
+J0
+$
+$
+=V 
+=0
+$
+$
+setBalance(cash)
+Pcash
+$
+$
+$
+$
+void setBalance(intcash)
+$
+$
+Parameter : int cash
+$
+$
+$
+$
+=V 
+=cash 
+$
+$
+$
+$
+$
+int BankAccount(intct,intdt)
+$
+$
+Parameter : int ct
+Parameter : int dt
+$
+$
+$
+setTrans(ct,dt)
+Pct
+Pdt
+$
+$
+$
+$
+void setTrans(intct,intdt)
+$
+$
+Parameter : int ct
+Parameter : int dt
+$
+$
+$
+$
+=V 
+=ct 
+$
+$
+=V 
+=dt 
+$
+$
+$
+$
+$
+int getCredit()
+$
+$
+$
+$
+$
+Greturncredit
+$
+$
+$
+$
+int getDebit()
+$
+$
+$
+$
+$
+Greturndebit
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+$
+$
+$
+if(accountBalance<0)
+JV accountBalance
+J0
+$
+$
+GreturnaccountBalance
+$
+$
+$
+$
+int kridit(intbal,intct)
+$
+$
+Parameter : int bal
+Parameter : int ct
+$
+$
+$
+Greturnbal+ct
+$
+$
+$
+$
+int deb(intbal,intdt)
+$
+$
+Parameter : int bal
+Parameter : int dt
+$
+$
+$
+$
+$
+$
+if(bal>dt)
+JV bal
+JV dt
+$
+Greturnbal-dt
+$
+$
+$
+$
+private
+$
+string customerAccount
+int accountBalance
+int credit
+int debit
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class BankAccount
+public
+$
+$
+$
+BankAccount BankAccount(intvalue)
+$
+$
+Parameter : int value
+$
+$
+$
+setBalanceValue(value)
+Pvalue
+$
+$
+$
+$
+void setBalanceValue(intvalue)
+$
+$
+Parameter : int value
+$
+$
+$
+$
+$
+$
+if(value>=0)
+JV value
+J0
+$
+$
+=V 
+=value 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+int getBalanceValue()
+$
+$
+$
+$
+$
+GreturnbalanceValue
+$
+$
+$
+$
+void credit(intvalue)
+$
+$
+Parameter : int value
+$
+$
+$
+$
++=V 
++=value 
+$
+$
+$
+$
+$
+void debit(intvalue)
+$
+$
+Parameter : int value
+$
+$
+$
+$
+$
+$
+if(value>balanceValue)
+JV value
+JV balanceValue
+$
+$
+-=V 
+-=value 
+$
+$
+$
+$
+$
+private
+$
+int balanceValue
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class BankAcc
+int balance
+public
+$
+$
+$
+int BankAcc(intinit)
+$
+$
+Parameter : int init
+$
+$
+$
+$
+$
+$
+if(init<0)
+JV init
+J0
+$
+$
+=V 
+=0
+$
+$
+=V 
+=init 
+$
+$
+$
+$
+$
+$
+void credit(intadd)
+$
+$
+Parameter : int add
+$
+$
+$
+$
++=V 
++=add 
+$
+$
+$
+$
+$
+void debit(intminus)
+$
+$
+Parameter : int minus
+$
+$
+$
+$
+$
+$
+if(minus>balance)
+JV minus
+JV balance
+$
+$
+-=V 
+-=minus 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(doubleinitial)
+$
+$
+Parameter : double initial
+$
+$
+$
+$
+$
+$
+if(initial>0)
+JV initial
+J0
+$
+$
+=V 
+=initial 
+$
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+=V 
+=0.0
+$
+$
+$
+$
+$
+$
+void getBalance()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+void credit()
+$
+$
+$
+$
+$
+double money
+$
++=V 
++=money 
+$
+getBalance()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+$
+void debit()
+$
+$
+$
+$
+$
+double money
+getBalance()
+$
+$
+$
+if(money<=balance)
+JV money
+JV balance
+$
+$
+-=V 
+-=money 
+$
+getchar()
+getchar()
+$
+getBalance()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+private
+$
+double balance
+$
+$
+$
+$
+class Account
+Account eric
+P100
+Account billy
+P100
+$
+$
+$
+void AccessEric()
+$
+$
+$
+$
+$
+$
+void AccessBilly()
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+void AccessEric()
+$
+$
+$
+$
+$
+int pil
+system("clear")
+PString"clear"
+$
+$
+$
+if(pil==4)
+JV pil
+J4
+$
+main()
+$
+$
+$
+if(pil==1)
+JV pil
+J1
+$
+eric.getBalance()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+if(pil==2)
+JV pil
+J2
+$
+eric.credit()
+$
+$
+$
+if(pil==3)
+JV pil
+J3
+$
+eric.debit()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+$
+GreturnAccessEric()
+AccessEric()
+$
+$
+$
+$
+$
+$
+$
+void AccessBilly()
+$
+$
+$
+$
+$
+int pil
+system("clear")
+PString"clear"
+$
+$
+$
+if(pil==4)
+JV pil
+J4
+$
+main()
+$
+$
+$
+if(pil==1)
+JV pil
+J1
+$
+billy.getBalance()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+if(pil==2)
+JV pil
+J2
+$
+billy.credit()
+$
+$
+$
+if(pil==3)
+JV pil
+J3
+$
+billy.debit()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+$
+GreturnAccessBilly()
+AccessBilly()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class AccountBank
+public
+$
+int initBalance
+$
+$
+int AccountBank(intinit)
+$
+$
+Parameter : int init
+$
+$
+$
+$
+=V 
+=init 
+$
+$
+$
+$
+if(init<0)
+JV init
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+void credit(intcr)
+$
+$
+Parameter : int cr
+$
+$
+$
+$
+=V 
+initBalance=initBalance+cr
+=initBalance 
+=cr 
+$
+$
+$
+$
+$
+void debet(intdb)
+$
+$
+Parameter : int db
+$
+$
+$
+$
+$
+$
+if(db>initBalance)
+JV db
+JV initBalance
+$
+$
+=V 
+initBalance=initBalance-db
+=initBalance 
+=db 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+GreturninitBalance
+$
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class BankAccount
+public
+$
+$
+$
+BankAccount BankAccount(intval)
+$
+$
+Parameter : int val
+$
+$
+$
+setBalanceValue(val)
+Pval
+$
+$
+$
+$
+void setBalanceValue(intval)
+$
+$
+Parameter : int val
+$
+$
+$
+$
+$
+$
+if(val>=0)
+JV val
+J0
+$
+$
+=V 
+=val 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+int getBalanceValue()
+$
+$
+$
+$
+$
+GreturnbalanceValue
+$
+$
+$
+$
+void credit(intval)
+$
+$
+Parameter : int val
+$
+$
+$
+$
++=V 
++=val 
+$
+$
+$
+$
+$
+void debit(intval)
+$
+$
+Parameter : int val
+$
+$
+$
+$
+$
+$
+if(val>balanceValue)
+JV val
+JV balanceValue
+$
+$
+-=V 
+-=val 
+$
+$
+$
+$
+$
+private
+$
+int balanceValue
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intblc)
+$
+$
+Parameter : int blc
+$
+$
+$
+$
+$
+$
+if(blc>=0)
+JV blc
+J0
+$
+$
+=V 
+=blc 
+$
+$
+$
+$
+$
+if(blc<0)
+JV blc
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+int debit(intblc)
+$
+$
+Parameter : int blc
+$
+$
+$
+$
+=V 
+balance=balance-blc
+=balance 
+=blc 
+$
+$
+$
+$
+$
+int credit(intblc)
+$
+$
+Parameter : int blc
+$
+$
+$
+$
++=V 
++=blc 
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
+$
+$
+if(money>=0)
+JV money
+J0
+$
+$
+=V 
+=money 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+void credit(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
+=V 
+balance=balance+money
+=balance 
+=money 
+$
+$
+$
+$
+$
+void debit(intmoney)
+$
+$
+Parameter : int money
+$
+$
+$
+$
+$
+$
+if(money<=balance)
+JV money
+JV balance
+$
+$
+=V 
+balance=balance-money
+=balance 
+=money 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+class customor
+private
+$
+int JumlahSaldo
+$
+public
+$
+$
+$
+int customor()
+$
+$
+$
+$
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+void setCredit(inttabung)
+$
+$
+Parameter : int tabung
+$
+$
+$
+$
++=V 
++=tabung 
+$
+$
+$
+$
+$
+void setDebit(intambil)
+$
+$
+Parameter : int ambil
+$
+$
+$
+$
+$
+$
+if(ambil>JumlahSaldo)
+JV ambil
+JV JumlahSaldo
+$
+$
+-=V 
+-=ambil 
+$
+$
+$
+$
+$
+$
+int getSaldo()
+$
+$
+$
+$
+$
+GreturnJumlahSaldo
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+$
+$
+$

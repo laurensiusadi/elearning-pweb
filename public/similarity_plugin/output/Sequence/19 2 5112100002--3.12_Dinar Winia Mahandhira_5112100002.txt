@@ -1,0 +1,106 @@
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(intbal)
+$
+$
+Parameter : int bal
+$
+$
+$
+$
+$
+$
+if(bal>=0)
+JV bal
+J0
+$
+$
+=V 
+=bal 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+void credit(intbal)
+$
+$
+Parameter : int bal
+$
+$
+$
+$
++=V 
++=bal 
+$
+$
+$
+$
+$
+void debit(intbal)
+$
+$
+Parameter : int bal
+$
+$
+$
+$
+$
+$
+if(bal<=balance)
+JV bal
+JV balance
+$
+$
+-=V 
+-=bal 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

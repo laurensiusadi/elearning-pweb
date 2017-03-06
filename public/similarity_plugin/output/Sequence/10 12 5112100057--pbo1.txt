@@ -1,0 +1,116 @@
+$
+$
+$
+$
+$
+$
+$
+class akun
+public
+$
+int saldo
+$
+$
+void tambahsaldo()
+$
+$
+$
+$
+$
+int tambah
+$
+=V 
+saldo=saldo+tambah
+=saldo 
+=tambah 
+$
+$
+$
+$
+$
+void kurangsaldo()
+$
+$
+$
+$
+$
+int kurang
+$
+$
+$
+if(saldo>kurang)
+JV saldo
+JV kurang
+$
+$
+=V 
+saldo=saldo-kurang
+=saldo 
+=kurang 
+$
+$
+$
+$
+if(saldo<kurang)
+JV saldo
+JV kurang
+$
+$
+$
+$
+$
+$
+$
+int tampilsaldo()
+$
+$
+$
+$
+$
+Greturnsaldo
+$
+$
+$
+$
+int akun(intmau)
+$
+$
+Parameter : int mau
+$
+$
+$
+$
+=V 
+=mau 
+$
+$
+$
+$
+if(saldo<0)
+JV saldo
+J0
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

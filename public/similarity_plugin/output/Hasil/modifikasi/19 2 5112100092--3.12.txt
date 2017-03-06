@@ -1,0 +1,26 @@
+12  7  class BankAccount
+14  8  public
+29  54  Parameter : int cash
+31  61  if(cash<0)
+31  62  JV cash
+31  63  J0
+34  66  =V 
+34  67  =0
+38  76  void setBalance(intcash)
+38  79  Parameter : int cash
+22  33  =V 
+22  34  =acc 
+43  94  Parameter : int ct
+73  191  if(bal>dt)
+63  158  JV accountBalance
+73  192  JV bal
+43  95  Parameter : int dt
+52  126  int getCredit()
+77  200  private
+79  203  int accountBalance
+82  212  int main()
+85  218  Greturn0
+
+22 109 222 92
+22 0
+49.0990990990991 91.59663865546219

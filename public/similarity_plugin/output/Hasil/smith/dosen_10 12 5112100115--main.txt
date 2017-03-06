@@ -1,0 +1,11 @@
+8 7  class Account
+10 8  public
+13 23  JV initialBalance
+13 24  J0
+15 27  =V 
+17 30  setBalance(initialBalance)
+27 63  JV debitAmount
+27 64  JV balance
+28 67  -=V 
+28 68  -=debitAmount 
+

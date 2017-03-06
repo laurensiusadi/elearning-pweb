@@ -1,0 +1,18 @@
+29 54  Parameter : int cash
+31 61  if(cash<0)
+31 62  JV cash
+31 63  J0
+34 66  =V 
+34 67  =0
+38 76  void setBalance(intcash)
+38 79  Parameter : int cash
+40 84  =V 
+40 85  =cash 
+47 110  Parameter : int dt
+63 158  JV accountBalance
+67 171  Parameter : int ct
+77 200  private
+79 205  int debit
+82 212  int main()
+85 218  Greturn0
+

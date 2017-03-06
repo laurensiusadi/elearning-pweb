@@ -1,0 +1,19 @@
+6 7  class BankAccount
+8 8  public
+14 28  Parameter : int val
+16 36  JV val
+16 37  J0
+22 44  =V 
+22 45  =0
+31 63  void credit(intval)
+31 66  Parameter : int val
+36 81  Parameter : int val
+38 88  if(val>balanceValue)
+38 89  JV val
+38 90  JV balanceValue
+44 93  -=V 
+44 94  -=val 
+48 100  private
+49 102  int balanceValue
+52 109  int main()
+

@@ -1,0 +1,104 @@
+$
+$
+$
+$
+$
+$
+$
+class BankAcc
+int balance
+public
+$
+$
+$
+int BankAcc(intinit)
+$
+$
+Parameter : int init
+$
+$
+$
+$
+$
+$
+if(init<0)
+JV init
+J0
+$
+$
+=V 
+=0
+$
+$
+=V 
+=init 
+$
+$
+$
+$
+$
+$
+void credit(intadd)
+$
+$
+Parameter : int add
+$
+$
+$
+$
++=V 
++=add 
+$
+$
+$
+$
+$
+void debit(intminus)
+$
+$
+Parameter : int minus
+$
+$
+$
+$
+$
+$
+if(minus>balance)
+JV minus
+JV balance
+$
+$
+-=V 
+-=minus 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

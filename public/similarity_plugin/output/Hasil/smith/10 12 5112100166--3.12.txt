@@ -1,0 +1,21 @@
+5 7  class Account
+7 8  public
+8 12  Account Account(intblc)
+8 15  Parameter : int blc
+10 23  JV blc
+10 24  J0
+11 26  setBalance(blc)
+11 27  Pblc
+19 35  void credit(intblc)
+19 38  Parameter : int blc
+24 53  Parameter : int blc
+26 60  if(blc>balance)
+26 61  JV blc
+26 62  JV balance
+29 65  -=V 
+29 66  -=blc 
+42 98  private
+43 100  int balance
+46 107  int main()
+47 113  Greturn0
+

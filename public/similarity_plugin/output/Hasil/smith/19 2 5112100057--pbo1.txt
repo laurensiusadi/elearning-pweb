@@ -1,0 +1,8 @@
+14 23  =saldo 
+14 24  =tambah 
+22 40  if(saldo>kurang)
+22 41  JV saldo
+22 42  JV kurang
+42 106  int main()
+45 112  Greturn0
+

@@ -1,0 +1,11 @@
+14 7  class Account
+15 8  public
+17 23  JV initial
+17 24  J0
+17 27  =V 
+22 32  system("clear")
+43 85  JV money
+43 86  JV balance
+43 89  -=V 
+43 90  -=money 
+

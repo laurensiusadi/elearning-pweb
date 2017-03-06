@@ -1,0 +1,118 @@
+$
+$
+$
+$
+$
+$
+$
+class AkunBank
+public
+$
+$
+$
+AkunBank AkunBank(intsaldo)
+$
+$
+Parameter : int saldo
+$
+$
+$
+$
+$
+$
+if(saldo>=0)
+JV saldo
+J0
+$
+$
+=V 
+=saldo 
+$
+$
+=V 
+=0
+$
+$
+$
+$
+$
+$
+void setoran(intsaldo)
+$
+$
+Parameter : int saldo
+$
+$
+$
+$
+$
+$
+if(saldo>=0)
+JV saldo
+J0
+$
+$
+=V 
+balance=balance+saldo
+=balance 
+=saldo 
+$
+$
+$
+$
+$
+$
+void ambil(intsaldo)
+$
+$
+Parameter : int saldo
+$
+$
+$
+$
+$
+$
+if(saldo<=balance)
+JV saldo
+JV balance
+$
+$
+=V 
+balance=balance-saldo
+=balance 
+=saldo 
+$
+$
+$
+$
+$
+$
+int cek()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+int balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

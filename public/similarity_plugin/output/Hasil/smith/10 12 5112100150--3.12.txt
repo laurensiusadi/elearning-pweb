@@ -1,0 +1,19 @@
+6 7  class AkunBank
+8 8  public
+9 15  Parameter : int saldo
+10 23  JV saldo
+10 24  J0
+13 31  =V 
+13 32  =0
+17 39  void setoran(intsaldo)
+17 42  Parameter : int saldo
+22 67  Parameter : int saldo
+23 75  JV saldo
+23 76  JV balance
+29 89  int cek()
+30 95  Greturnbalance
+32 99  private
+33 101  int balance
+36 108  int main()
+38 114  Greturn0
+

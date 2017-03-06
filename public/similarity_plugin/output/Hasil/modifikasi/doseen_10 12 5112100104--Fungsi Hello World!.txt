@@ -1,0 +1,5 @@
+42 102 int balance
+45 109 int main()
+47 115 Greturn0
+
+6

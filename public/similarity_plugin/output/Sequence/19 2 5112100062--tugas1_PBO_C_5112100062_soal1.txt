@@ -1,0 +1,122 @@
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(doubleamount)
+$
+$
+Parameter : double amount
+$
+$
+$
+$
+$
+$
+if(amount<0)
+JV amount
+J0
+$
+$
+=V 
+=0.0
+$
+$
+=V 
+=amount 
+$
+$
+$
+$
+$
+$
+void credit(doubleamount)
+$
+$
+Parameter : double amount
+$
+$
+$
+$
+$
+$
+if(amount<0)
+JV amount
+J0
+$
+$
++=V 
++=amount 
+$
+$
+$
+$
+$
+$
+void debit(doubleamount)
+$
+$
+Parameter : double amount
+$
+$
+$
+$
+$
+$
+if(amount<0)
+JV amount
+J0
+$
+$
+$
+$
+if(amount>balance)
+JV amount
+JV balance
+$
+$
+-=V 
+-=amount 
+$
+$
+$
+$
+$
+$
+$
+double getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+private
+$
+double balance
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

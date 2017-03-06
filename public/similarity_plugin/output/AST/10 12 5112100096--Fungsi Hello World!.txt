@@ -1,0 +1,3 @@
+A ( ) A ( C ( B:int() D ( ) E ( return0 ) ) ) @
+A ( ) A ( C ( B:int()I0S0Ch0C0 D ( ) E ( return0 ) ) ) 
+0 0 0 0 0 1 1 2 2 2 2 2 2 3 2 1 0 @

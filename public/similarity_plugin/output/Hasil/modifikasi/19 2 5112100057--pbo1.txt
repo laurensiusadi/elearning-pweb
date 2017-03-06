@@ -1,0 +1,22 @@
+4  7  class akun
+6  8  public
+31  77  Parameter : int mau
+34  88  if(saldo<0)
+22  41  JV saldo
+34  90  J0
+22  45  =V 
+36  94  =0
+14  21  =V 
+14  23  =saldo 
+31  74  int akun(intmau)
+22  40  if(saldo>kurang)
+22  42  JV kurang
+34  89  JV saldo
+26  63  int tampilsaldo()
+7  10  int saldo
+42  106  int main()
+45  112  Greturn0
+
+18 94 119 66
+18 0
+78.99159663865547 78.99159663865547

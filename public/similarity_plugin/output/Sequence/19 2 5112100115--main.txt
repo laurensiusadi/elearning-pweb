@@ -1,0 +1,268 @@
+$
+$
+$
+$
+$
+$
+$
+class Account
+public
+$
+$
+$
+Account Account(doubleinitial)
+$
+$
+Parameter : double initial
+$
+$
+$
+$
+$
+$
+if(initial>0)
+JV initial
+J0
+$
+$
+=V 
+=initial 
+$
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+=V 
+=0.0
+$
+$
+$
+$
+$
+$
+void getBalance()
+$
+$
+$
+$
+$
+$
+$
+$
+$
+void credit()
+$
+$
+$
+$
+$
+double money
+$
++=V 
++=money 
+$
+getBalance()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+$
+void debit()
+$
+$
+$
+$
+$
+double money
+getBalance()
+$
+$
+$
+if(money<=balance)
+JV money
+JV balance
+$
+$
+-=V 
+-=money 
+$
+getchar()
+getchar()
+$
+getBalance()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+private
+$
+double balance
+$
+$
+$
+$
+class Account
+Account eric
+P100
+Account billy
+P100
+$
+$
+$
+void AccessEric()
+$
+$
+$
+$
+$
+$
+void AccessBilly()
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$
+$
+$
+$
+$
+void AccessEric()
+$
+$
+$
+$
+$
+int pil
+system("clear")
+PString"clear"
+$
+$
+$
+if(pil==4)
+JV pil
+J4
+$
+main()
+$
+$
+$
+if(pil==1)
+JV pil
+J1
+$
+eric.getBalance()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+if(pil==2)
+JV pil
+J2
+$
+eric.credit()
+$
+$
+$
+if(pil==3)
+JV pil
+J3
+$
+eric.debit()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+$
+GreturnAccessEric()
+AccessEric()
+$
+$
+$
+$
+$
+$
+$
+void AccessBilly()
+$
+$
+$
+$
+$
+int pil
+system("clear")
+PString"clear"
+$
+$
+$
+if(pil==4)
+JV pil
+J4
+$
+main()
+$
+$
+$
+if(pil==1)
+JV pil
+J1
+$
+billy.getBalance()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+if(pil==2)
+JV pil
+J2
+$
+billy.credit()
+$
+$
+$
+if(pil==3)
+JV pil
+J3
+$
+billy.debit()
+getchar()
+getchar()
+system("clear")
+PString"clear"
+$
+$
+$
+$
+GreturnAccessBilly()
+AccessBilly()
+$
+$
+$

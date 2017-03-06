@@ -1,0 +1,8 @@
+22 45  =V 
+22 46  =initialBalance 
+27 62  if(debitAmount>balance)
+27 63  JV debitAmount
+27 64  JV balance
+45 109  int main()
+47 115  Greturn0
+

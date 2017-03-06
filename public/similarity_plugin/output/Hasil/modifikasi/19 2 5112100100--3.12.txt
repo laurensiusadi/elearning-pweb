@@ -1,0 +1,26 @@
+3  7  class Account
+7  12  public
+8  19  Parameter : int aB
+10  27  JV aB
+10  28  J0
+11  31  =V 
+14  36  =0
+18  43  void credit(intnominal)
+18  46  Parameter : int nominal
+8  16  int Account(intaB)
+22  61  Parameter : int nilai
+24  69  JV nilai
+24  70  JV accountBalance
+25  73  -=V 
+25  74  -=nilai 
+20  51  +=V 
+20  52  +=nominal 
+29  81  int returnBalance()
+5  8  private
+6  10  int accountBalance
+34  96  int main()
+37  102  Greturn0
+
+22 98 119 90
+22 0
+82.3529411764706 82.3529411764706

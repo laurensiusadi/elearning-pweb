@@ -1,0 +1,108 @@
+$
+$
+$
+$
+$
+$
+$
+class Account
+private
+$
+int balance
+$
+public
+$
+$
+$
+int Account(intamount)
+$
+$
+Parameter : int amount
+$
+$
+$
+$
+$
+$
+if(amount>=0)
+JV amount
+J0
+$
+$
+=V 
+=amount 
+$
+$
+=V 
+=0
+$
+PString"Error: invalid initial balance\n"
+$
+$
+$
+$
+$
+void credit(intamount)
+$
+$
+Parameter : int amount
+$
+$
+$
+$
++=V 
++=amount 
+$
+$
+$
+$
+$
+void debit(intamount)
+$
+$
+Parameter : int amount
+$
+$
+$
+$
+$
+$
+if(amount>balance)
+JV amount
+JV balance
+$
+PString"Debit amount exceeded account balance\n"
+$
+-=V 
+-=amount 
+$
+$
+$
+$
+$
+$
+int getBalance()
+$
+$
+$
+$
+$
+Greturnbalance
+$
+$
+$
+$
+$
+$
+$
+$
+int main()
+$
+$
+$
+$
+$
+Greturn0
+$
+$
+$

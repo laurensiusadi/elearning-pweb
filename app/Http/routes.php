@@ -16,6 +16,8 @@ Route::get('/home', 'HomeController@index');
 Route::get('/', 'HomeController@index');
 Route::post('/compile', 'HomeController@compile');
 
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
 Route::post('/plagiarism', 'PlagiarismController@check');
 Route::get('/plagiarism/{course}/{quiz}/{filter}', 'PlagiarismController@index');
 Route::get('/plagiarism/{course}/{quiz}/{filter}/{nrp}', 'PlagiarismController@show');

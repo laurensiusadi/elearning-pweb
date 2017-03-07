@@ -26,6 +26,10 @@ Route::post('/similarity', 'SimilarityController@check');
 Route::get('/similarity/{course}/{quiz}', 'SimilarityController@index');
 Route::get('/similarity/{course}/{quiz}/{nrp}', 'SimilarityController@show');
 
+Route::get('/testing', function () {
+    return view('test');
+});
+
 // Route::get('/', function () {
 // 	return view('welcome');
 // });

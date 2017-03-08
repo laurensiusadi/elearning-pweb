@@ -158,7 +158,7 @@ return [
         Kodeine\Acl\AclServiceProvider::class,
         DaveJamesMiller\Breadcrumbs\ServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
-
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
     ],
 
     /*

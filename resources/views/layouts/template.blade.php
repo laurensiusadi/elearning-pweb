@@ -63,26 +63,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<!--
-BODY TAG OPTIONS:
-=================
-Apply one or more of the following classes to get the
-desired effect
-|---------------------------------------------------------|
-| SKINS         | skin-blue                               |
-|               | skin-black                              |
-|               | skin-purple                             |
-|               | skin-yellow                             |
-|               | skin-red                                |
-|               | skin-green                              |
-|---------------------------------------------------------|
-|LAYOUT OPTIONS | fixed                                   |
-|               | layout-boxed                            |
-|               | layout-top-nav                          |
-|               | sidebar-collapse                        |
-|               | sidebar-mini                            |
-|---------------------------------------------------------|
--->
 <body class="hold-transition skin-blue sidebar-mini">
 
   <div id="modal-delete" class="modal fade modal-danger">
@@ -432,8 +412,8 @@ desired effect
   });
   //Date range picker with time picker
   $('#reservationtime').daterangepicker({
-    timePicker: true, 
-    timePickerIncrement: 5, 
+    timePicker: true,
+    timePickerIncrement: 5,
     format: 'YYYY-MM-DD HH:mm'
   });
   //Table
@@ -452,6 +432,20 @@ desired effect
     radioClass: 'iradio_minimal-blue'
   });
 })
+</script>
+
+<script>
+// Test if service workers are supported
+if ('serviceWorker' in navigator) {
+    // Attempt to register it
+    navigator.serviceWorker.register('/sw.js').then(function() {
+    // Success Message
+    console.log('ServiceWorker succesfully registered');
+    }).catch(function(err) {
+    // Error Message
+    console.log('ServiceWorker registration failed: ', err);
+    });
+}
 </script>
 
 <!-- Ace -->
@@ -545,7 +539,7 @@ desired effect
             annotations.push(ann);
           }
         });
-        if(arr.length > 0) {  
+        if(arr.length > 0) {
           arr.forEach(function(entry) {
             if(entry.indexOf(errorstatement) > -1) {
               var splitedarr = entry.split(errorstatement);

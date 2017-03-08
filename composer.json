@@ -9,7 +9,8 @@
         "laravel/framework": "5.3.*",
         "kodeine/laravel-acl": "~1.0@dev",
         "davejamesmiller/laravel-breadcrumbs": "^3.0",
-        "yajra/laravel-datatables-oracle": "^6.11"
+        "yajra/laravel-datatables-oracle": "^6.11",
+        "rap2hpoutre/laravel-log-viewer": "^0.8.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
